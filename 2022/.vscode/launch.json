@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Typescript",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "ts-node",
+      "internalConsoleOptions": "openOnFirstSessionStart",
+      "cwd": "${fileDirname}",
+      "console": "integratedTerminal",
+      "localRoot": "${workspaceFolder}",
+      "program": "${file}",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    }
+  ]
+}
